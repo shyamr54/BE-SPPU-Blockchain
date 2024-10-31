@@ -9,8 +9,6 @@ contract StudentData {
         uint age;
         uint grade;
     }
-    
-    // Array to store students
     Student[] public students;
     
     // Mapping to store student existence by ID for quick checks
